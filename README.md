@@ -4,41 +4,118 @@
 
 Zeara is a fitness tracking platform designed to help users organize workout routines, record training sessions, and analyze their fitness progress in one place.
 
+**Plan. Track. Analyze.**
+
+---
+
+## Project Overview
+
+Zeara aims to provide an organized and accessible platform for people who want to manage their workout activities and monitor their training progress.
+
+The platform combines workout planning, exercise tracking, and progress analytics into one integrated experience.
+
 ## Project Vision
 
 To provide a simple and organized platform for people who want to plan, track, and understand their workout progress.
 
 ## Core Features
 
-- **PLAN** — Create and organize workout routines using built-in templates or custom plans.
-- **TRACK** — Record exercises, sets, reps, weights, and workout sessions.
-- **ANALYZE** — Monitor training volume, personal records, workout frequency, and progress over time.
+### 1. PLAN — Workout Planning
+
+- Browse pre-built workout templates.
+- Create and customize personal workout routines.
+- Organize exercises into different training days.
+- Set target sets and repetitions.
+
+### 2. TRACK — Workout Tracking
+
+- Record workout sessions.
+- Log exercises, sets, repetitions, and weights.
+- Track completed workout sessions.
+- Maintain a history of training activities.
+
+### 3. ANALYZE — Progress Analytics
+
+- Monitor training volume.
+- Track personal records (PR).
+- Analyze workout frequency.
+- Visualize exercise performance and progress over time.
 
 ## Main Modules
 
-- Dashboard
-- Workout Planner
-- Exercise Library
-- Workout Logger
-- Workout History
-- Progress Analytics
-- User Profile and Settings
+| Module | Description |
+|---|---|
+| Dashboard | Overview of workout activity and training statistics. |
+| Workout Planner | Create, organize, and customize workout routines. |
+| Exercise Library | Browse built-in exercises and manage custom exercises. |
+| Workout Logger | Record exercises, sets, reps, and weights during workout sessions. |
+| Workout History | Review previous workout sessions and training records. |
+| Progress Analytics | Visualize training volume, personal records, and workout frequency. |
+| Profile & Settings | Manage user profiles and application preferences. |
 
 ## Design Direction
 
-Zeara uses a **Y2K Webcore / Retro Internet Aesthetic**, combining pastel colors, retro computer interfaces, pixel-inspired elements, and modern usability.
+Zeara follows a **Y2K Webcore / Retro Internet Aesthetic**, inspired by early 2000s internet interfaces.
 
-## Project Status
+The visual identity combines:
 
-Currently in the planning and UI/UX design phase.
+- Pastel baby blue, pink, lavender, and white.
+- Retro computer windows and interface elements.
+- Pixel-inspired icons and decorative details.
+- Glossy surfaces and chrome-inspired accents.
+- Playful typography and nostalgic digital aesthetics.
+
+The design aims to balance a distinctive visual identity with modern usability, accessibility, and responsive layouts.
+
+## Project Structure
+
+The project is planned to be organized into the following directories:
+
+```text
+zeara/
+├── docs/       # Project documentation
+├── design/     # UI/UX designs and Figma references
+├── src/        # Application source code
+├── README.md
+└── .gitignore
+```
+
+The structure may evolve as development progresses.
 
 ## Tech Stack
 
 The technology stack is currently being explored and has not been finalized.
 
+Potential technologies include:
+
+- **Design:** Figma
+- **Frontend:** React, JavaScript, Tailwind CSS
+- **Backend:** Node.js, Express
+- **Database:** PostgreSQL
+- **Version Control:** Git and GitHub
+
+These technologies are preliminary and may change during development.
+
+## Project Status
+
+**Current Phase:** Planning & UI/UX Design
+
+Zeara is currently in its initial development phase, focusing on project planning, requirements definition, and interface design.
+
+Implementation and integration will follow once the initial design and technical planning are ready.
+
 ## Collaboration
 
-Contributions, suggestions, and feedback are welcome. Please refer to the project documentation before contributing.
+Zeara is an independent learning project that welcomes collaboration, suggestions, and constructive feedback.
+
+People interested in contributing are encouraged to:
+
+1. Explore the project documentation.
+2. Review the existing design and implementation.
+3. Discuss proposed features or improvements through GitHub Issues.
+4. Submit contributions through Pull Requests.
+
+More detailed contribution guidelines will be provided as the project develops.
 
 ---
 
