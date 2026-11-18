@@ -1,0 +1,7 @@
+@import "tailwindcss";
+
+@theme {
+  --font-bodoniModa: "Bodoni Moda", serif;
+  --font-dMSans: "DM Sans", sans-serif;
+  --font-spaceGrotesk: "Space Grotesk", sans-serif;
+}

@@ -1,3 +1,4 @@
+
 # Zeara
 
 **An All-in-One Fitness Tracking Platform**
@@ -21,21 +22,18 @@ To provide a simple and organized platform for people who want to plan, track, a
 ## Core Features
 
 ### 1. PLAN — Workout Planning
-
 - Browse pre-built workout templates.
 - Create and customize personal workout routines.
 - Organize exercises into different training days.
 - Set target sets and repetitions.
 
 ### 2. TRACK — Workout Tracking
-
 - Record workout sessions.
 - Log exercises, sets, repetitions, and weights.
 - Track completed workout sessions.
 - Maintain a history of training activities.
 
 ### 3. ANALYZE — Progress Analytics
-
 - Monitor training volume.
 - Track personal records (PR).
 - Analyze workout frequency.
@@ -69,40 +67,57 @@ The design aims to balance a distinctive visual identity with modern usability, 
 
 ## Project Structure
 
-The project is planned to be organized into the following directories:
-
 ```text
-zeara/
-├── docs/       # Project documentation
-├── design/     # UI/UX designs and Figma references
-├── src/        # Application source code
-├── README.md
-└── .gitignore
+zeara-slicing/
+├── public/
+├── src/
+│   ├── assets/
+│   ├── App.jsx
+│   ├── App.css
+│   ├── index.css
+│   ├── main.jsx
+│   └── ... (page components)
+├── docs/
+├── .gitignore
+├── index.html
+├── package.json
+├── package-lock.json
+└── README.md
 ```
 
 The structure may evolve as development progresses.
 
 ## Tech Stack
 
-The technology stack is currently being explored and has not been finalized.
-
-Potential technologies include:
-
-- **Design:** Figma
-- **Frontend:** React, JavaScript, Tailwind CSS
-- **Backend:** Node.js, Express
-- **Database:** PostgreSQL
-- **Version Control:** Git and GitHub
-
-These technologies are preliminary and may change during development.
+| Layer | Technology |
+|---|---|
+| Design | Figma |
+| Frontend | React, JavaScript, Vite |
+| Styling | Tailwind CSS |
+| Version Control | Git and GitHub |
+| Backend | Planned |
+| Database | Planned |
 
 ## Project Status
 
-**Current Phase:** Planning & UI/UX Design
+**Current Phase: Frontend Development Completed**
 
-Zeara is currently in its initial development phase, focusing on project planning, requirements definition, and interface design.
+- Project planning and UI/UX design completed.
+- Frontend page slicing completed.
+- Frontend integration and testing completed.
+- Backend development is the next phase.
 
-Implementation and integration will follow once the initial design and technical planning are ready.
+## Documentation
+
+Project documentation is available in the `docs/` directory:
+
+- Project Overview
+- Product Requirements Document
+- UI/UX Design Brief
+- Sitemap and User Flow
+- Technical Specification
+- Development Roadmap
+- Contribution Guidelines
 
 ## Collaboration
 
@@ -114,8 +129,6 @@ People interested in contributing are encouraged to:
 2. Review the existing design and implementation.
 3. Discuss proposed features or improvements through GitHub Issues.
 4. Submit contributions through Pull Requests.
-
-More detailed contribution guidelines will be provided as the project develops.
 
 ---
 
